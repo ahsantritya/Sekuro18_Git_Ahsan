@@ -1,0 +1,30 @@
+   41  cd
+   42  ls
+   43  rm -rf recovered_sector.txt
+   44  l
+   45  cd recovery_ops
+   46  head -n  1260 system_raw.txt | tail -n 11 > recovered_sector.txt && -u system_raw.txt
+   47  code .
+   48  cd
+   49  ls
+   50  cd recovery_ops
+   51  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+   52  head -n  1260 system_raw.txt | tail -n 11 > recovered_sector.txt && -u system_raw.txt
+   53  shred -u system_raw.txt
+   54  ls
+   55  code .
+   56  ls
+   57  cd
+   58  shutdown
+   59  which code
+   60  ls
+   61  cd recovery_ops
+   62  code .
+   63  sudo nano /etc/wsl.conf
+   64  cd
+   65  wsl --shutdown
+   66  shutdown
+   67  ls
+   68  cd recovery_ops
+   69  code .
+   70  history | tail -n 30 > history_audit.txt
