@@ -1,9 +1,7 @@
-* fd5cb27 fix: mengembalikan folder Soal 1 dan merapikan riwayat
-*   f2f9c1a Merge branch 'v1'
-|\  
+* f84c14d fix: sinkronisasi folder Soal 1, 2, dan 3
+* 6728da9 Menambahkan folder Soal 2 dan file log
+* fc037c3 feat: menyelesaikan Soal 3 Robot Pemadam
+* df9641d docs: tambahkan komentar versi 2
 | * bb04405 docs: tambahkan komentar versi 1
-* | fc037c3 feat: menyelesaikan Soal 3 Robot Pemadam
- /  
-| * df9641d docs: tambahkan komentar versi 2
 |/  
 * a44de30 inisiasi github
